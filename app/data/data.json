@@ -1,0 +1,19 @@
+var weekly_sales = [
+      {
+        "week":1,
+        "sales":90
+      },
+      {
+        "week":2,
+        "sales":76
+      },
+      {
+        "week":3,
+        "sales":67
+
+      },
+      {
+        "week":4,
+        "sales":80
+      },
+]

@@ -1,0 +1,236 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'react-d3-components' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /Users/sanjaykanwar/WebstormProjects/github-battle/package.json
+5 warn package.json github-battle@1.0.0 No description
+6 warn package.json github-battle@1.0.0 No repository field.
+7 warn package.json github-battle@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/axios/package.json
+9 verbose installManyTop reading scoped package data from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/babel-core/package.json
+10 verbose installManyTop reading scoped package data from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/babel-loader/package.json
+11 verbose installManyTop reading scoped package data from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/babel-preset-react/package.json
+12 verbose installManyTop reading scoped package data from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/d3/package.json
+13 verbose installManyTop reading scoped package data from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/html-webpack-plugin/package.json
+14 verbose installManyTop reading scoped package data from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/path/package.json
+15 verbose installManyTop reading scoped package data from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react/package.json
+16 verbose installManyTop reading scoped package data from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-bar-chart/package.json
+17 verbose installManyTop reading scoped package data from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-d3/package.json
+18 verbose installManyTop reading scoped package data from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-dom/package.json
+19 verbose installManyTop reading scoped package data from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-router/package.json
+20 verbose installManyTop reading scoped package data from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/webpack/package.json
+21 verbose installManyTop reading scoped package data from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/webpack-dev-server/package.json
+22 info package.json path@0.12.7 path is also the name of a node core module.
+23 verbose readDependencies loading dependencies from /Users/sanjaykanwar/WebstormProjects/github-battle/package.json
+24 silly cache add args [ 'react-d3-components', null ]
+25 verbose cache add spec react-d3-components
+26 silly cache add parsed spec { raw: 'react-d3-components',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'react-d3-components',
+26 silly cache add   rawSpec: '',
+26 silly cache add   spec: '*',
+26 silly cache add   type: 'range' }
+27 silly addNamed react-d3-components@*
+28 verbose addNamed "*" is a valid semver range for react-d3-components
+29 silly addNameRange { name: 'react-d3-components', range: '*', hasData: false }
+30 silly mapToRegistry name react-d3-components
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/react-d3-components
+34 verbose addNameRange registry:https://registry.npmjs.org/react-d3-components not in flight; fetching
+35 verbose request uri https://registry.npmjs.org/react-d3-components
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 11:56:00 PM
+38 verbose request id b6b1bb800115a2da
+39 http request GET https://registry.npmjs.org/react-d3-components
+40 http 200 https://registry.npmjs.org/react-d3-components
+41 silly get cb [ 200,
+41 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+41 silly get     etag: '"2ZDN1K73CBNNBY5OCO1CN03AJ"',
+41 silly get     'content-type': 'application/json',
+41 silly get     'cache-control': 'max-age=300',
+41 silly get     'content-length': '57901',
+41 silly get     'accept-ranges': 'bytes',
+41 silly get     date: 'Thu, 24 Mar 2016 12:55:59 GMT',
+41 silly get     via: '1.1 varnish',
+41 silly get     age: '0',
+41 silly get     connection: 'keep-alive',
+41 silly get     'x-served-by': 'cache-syd1627-SYD',
+41 silly get     'x-cache': 'MISS',
+41 silly get     'x-cache-hits': '0',
+41 silly get     'x-timer': 'S1458824158.193231,VS0,VE1066',
+41 silly get     vary: 'Accept' } ]
+42 verbose get saving react-d3-components to /Users/sanjaykanwar/.npm/registry.npmjs.org/react-d3-components/.cache.json
+43 silly addNameRange number 2 { name: 'react-d3-components', range: '*', hasData: true }
+44 silly addNameRange versions [ 'react-d3-components',
+44 silly addNameRange   [ '0.1.0',
+44 silly addNameRange     '0.2.0',
+44 silly addNameRange     '0.2.1',
+44 silly addNameRange     '0.2.2',
+44 silly addNameRange     '0.2.3',
+44 silly addNameRange     '0.3.0',
+44 silly addNameRange     '0.3.1',
+44 silly addNameRange     '0.3.2',
+44 silly addNameRange     '0.3.3',
+44 silly addNameRange     '0.3.4',
+44 silly addNameRange     '0.3.5',
+44 silly addNameRange     '0.3.6',
+44 silly addNameRange     '0.3.7',
+44 silly addNameRange     '0.4.1',
+44 silly addNameRange     '0.4.2',
+44 silly addNameRange     '0.4.3',
+44 silly addNameRange     '0.4.4',
+44 silly addNameRange     '0.4.5',
+44 silly addNameRange     '0.4.6',
+44 silly addNameRange     '0.4.7',
+44 silly addNameRange     '0.4.8',
+44 silly addNameRange     '0.5.0',
+44 silly addNameRange     '0.5.1',
+44 silly addNameRange     '0.5.2',
+44 silly addNameRange     '0.6.0',
+44 silly addNameRange     '0.6.1',
+44 silly addNameRange     '0.6.2' ] ]
+45 silly addNamed react-d3-components@0.6.2
+46 verbose addNamed "0.6.2" is a plain semver version for react-d3-components
+47 silly mapToRegistry name react-d3-components
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry uri https://registry.npmjs.org/react-d3-components
+51 verbose addRemoteTarball https://registry.npmjs.org/react-d3-components/-/react-d3-components-0.6.2.tgz not in flight; adding
+52 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-d3-components/-/react-d3-components-0.6.2.tgz',
+52 verbose addRemoteTarball   '842b0399914a0a21bff00fcd1d104cb64a3dad62' ]
+53 info retry fetch attempt 1 at 11:56:01 PM
+54 info attempt registry request try #1 at 11:56:01 PM
+55 http fetch GET https://registry.npmjs.org/react-d3-components/-/react-d3-components-0.6.2.tgz
+56 http fetch 200 https://registry.npmjs.org/react-d3-components/-/react-d3-components-0.6.2.tgz
+57 silly fetchAndShaCheck shasum 842b0399914a0a21bff00fcd1d104cb64a3dad62
+58 verbose addTmpTarball /tmp/npm-7095-c92298bd/registry.npmjs.org/react-d3-components/-/react-d3-components-0.6.2.tgz not in flight; adding
+59 verbose addTmpTarball already have metadata; skipping unpack for react-d3-components@0.6.2
+60 silly cache afterAdd react-d3-components@0.6.2
+61 verbose afterAdd /Users/sanjaykanwar/.npm/react-d3-components/0.6.2/package/package.json not in flight; writing
+62 verbose afterAdd /Users/sanjaykanwar/.npm/react-d3-components/0.6.2/package/package.json written
+63 silly install resolved [ { name: 'react-d3-components',
+63 silly install resolved     version: '0.6.2',
+63 silly install resolved     description: 'D3 components for React',
+63 silly install resolved     main: 'lib/index.js',
+63 silly install resolved     repository:
+63 silly install resolved      { type: 'git',
+63 silly install resolved        url: 'git+https://github.com/codesuki/react-d3-components.git' },
+63 silly install resolved     keywords:
+63 silly install resolved      [ 'd3',
+63 silly install resolved        'react',
+63 silly install resolved        'graph',
+63 silly install resolved        'visualization',
+63 silly install resolved        'chart',
+63 silly install resolved        'react-component' ],
+63 silly install resolved     author:
+63 silly install resolved      { name: 'Neri Marschik',
+63 silly install resolved        email: 'marschik_neri@cyberagent.co.jp',
+63 silly install resolved        url: 'http://www.cyberagent.co.jp' },
+63 silly install resolved     license: 'MIT',
+63 silly install resolved     bugs: { url: 'https://github.com/codesuki/react-d3-components/issues' },
+63 silly install resolved     homepage: 'https://github.com/codesuki/react-d3-components',
+63 silly install resolved     peerDependencies: { react: '^0.14.0', 'react-dom': '^0.14.0' },
+63 silly install resolved     dependencies: { d3: '^3.5.3' },
+63 silly install resolved     devDependencies:
+63 silly install resolved      { babel: '^4.6.4',
+63 silly install resolved        'babel-core': '^4.7.16',
+63 silly install resolved        'babel-loader': '^4.2.0',
+63 silly install resolved        'eslint-plugin-react': '^3.4.2',
+63 silly install resolved        webpack: '^1.7.3' },
+63 silly install resolved     scripts:
+63 silly install resolved      { prepublish: 'babel -c -d ./lib ./src/',
+63 silly install resolved        postpublish: 'rm -r ./lib',
+63 silly install resolved        'build:js': 'webpack && webpack --config webpack.config.min.js' },
+63 silly install resolved     gitHead: 'bd19e05a784b2ed1e3a8744d7fb0a6c7d967a130',
+63 silly install resolved     _id: 'react-d3-components@0.6.2',
+63 silly install resolved     _shasum: '842b0399914a0a21bff00fcd1d104cb64a3dad62',
+63 silly install resolved     _from: 'react-d3-components@*',
+63 silly install resolved     _npmVersion: '3.5.3',
+63 silly install resolved     _nodeVersion: '4.2.1',
+63 silly install resolved     _npmUser: { name: 'codesuki', email: 'marschik_neri@cyberagent.co.jp' },
+63 silly install resolved     maintainers: [ [Object] ],
+63 silly install resolved     dist:
+63 silly install resolved      { shasum: '842b0399914a0a21bff00fcd1d104cb64a3dad62',
+63 silly install resolved        tarball: 'http://registry.npmjs.org/react-d3-components/-/react-d3-components-0.6.2.tgz' },
+63 silly install resolved     directories: {},
+63 silly install resolved     _resolved: 'https://registry.npmjs.org/react-d3-components/-/react-d3-components-0.6.2.tgz' } ]
+64 info install react-d3-components@0.6.2 into /Users/sanjaykanwar/WebstormProjects/github-battle
+65 info installOne react-d3-components@0.6.2
+66 verbose installOne of react-d3-components to /Users/sanjaykanwar/WebstormProjects/github-battle not in flight; installing
+67 verbose lock using /Users/sanjaykanwar/.npm/_locks/react-d3-components-afafbc9876aebb68.lock for /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-d3-components
+68 silly install write writing react-d3-components 0.6.2 to /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-d3-components
+69 verbose unbuild node_modules/react-d3-components
+70 silly gentlyRm /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-d3-components is being purged from base /Users/sanjaykanwar/WebstormProjects/github-battle
+71 verbose gentlyRm don't care about contents; nuking /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-d3-components
+72 verbose tar unpack /Users/sanjaykanwar/.npm/react-d3-components/0.6.2/package.tgz
+73 verbose tar unpacking to /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-d3-components
+74 silly gentlyRm /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-d3-components is being purged
+75 verbose gentlyRm don't care about contents; nuking /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-d3-components
+76 silly gunzTarPerm modes [ '755', '644' ]
+77 silly gunzTarPerm extractEntry package.json
+78 silly gunzTarPerm extractEntry README.md
+79 silly gunzTarPerm extractEntry LICENSE
+80 silly gunzTarPerm extractEntry LICENSE.d3
+81 silly gunzTarPerm extractEntry lib/AccessorMixin.js
+82 silly gunzTarPerm extractEntry lib/Chart.js
+83 silly gunzTarPerm extractEntry lib/DefaultPropsMixin.js
+84 silly gunzTarPerm extractEntry lib/DefaultScalesMixin.js
+85 silly gunzTarPerm extractEntry lib/Brush.js
+86 silly gunzTarPerm extractEntry lib/LineChart.js
+87 silly gunzTarPerm extractEntry lib/Path.js
+88 silly gunzTarPerm extractEntry lib/PieChart.js
+89 silly gunzTarPerm extractEntry lib/ScatterPlot.js
+90 silly gunzTarPerm extractEntry lib/StackAccessorMixin.js
+91 silly gunzTarPerm extractEntry lib/BarChart.js
+92 silly gunzTarPerm extractEntry lib/StackDataMixin.js
+93 silly gunzTarPerm extractEntry lib/Bar.js
+94 silly gunzTarPerm extractEntry lib/Tooltip.js
+95 silly gunzTarPerm extractEntry lib/Axis.js
+96 silly gunzTarPerm extractEntry lib/TooltipMixin.js
+97 silly gunzTarPerm extractEntry lib/ArrayifyMixin.js
+98 silly gunzTarPerm extractEntry lib/Waveform.js
+99 silly gunzTarPerm extractEntry lib/AreaChart.js
+100 silly gunzTarPerm extractEntry lib/index.js
+101 silly gunzTarPerm extractEntry lib/HeightWidthMixin.js
+102 silly gunzTarPerm extractEntry dist/react-d3-components.js
+103 silly gunzTarPerm extractEntry dist/react-d3-components.min.js
+104 silly gunzTarPerm extractEntry dist/react-d3-components.js.map
+105 verbose write writing to /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-d3-components/package.json
+106 info preinstall react-d3-components@0.6.2
+107 verbose readDependencies loading dependencies from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-d3-components/package.json
+108 verbose readDependencies loading dependencies from /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-d3-components/package.json
+109 silly install resolved []
+110 verbose about to build /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-d3-components
+111 info build /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-d3-components
+112 info linkStuff react-d3-components@0.6.2
+113 silly linkStuff react-d3-components@0.6.2 has /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules as its parent node_modules
+114 verbose linkBins react-d3-components@0.6.2
+115 verbose linkMans react-d3-components@0.6.2
+116 verbose rebuildBundles react-d3-components@0.6.2
+117 info install react-d3-components@0.6.2
+118 info postinstall react-d3-components@0.6.2
+119 verbose unlock done using /Users/sanjaykanwar/.npm/_locks/react-d3-components-afafbc9876aebb68.lock for /Users/sanjaykanwar/WebstormProjects/github-battle/node_modules/react-d3-components
+120 verbose validateInstall loading /Users/sanjaykanwar/WebstormProjects/github-battle/package.json for validation
+121 verbose stack Error: The package react does not satisfy its siblings' peerDependencies requirements!
+121 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+121 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:267:7
+121 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+121 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+121 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+121 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+121 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+121 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+121 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+121 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+122 verbose cwd /Users/sanjaykanwar/WebstormProjects/github-battle
+123 error Darwin 13.4.0
+124 error argv "node" "/usr/local/bin/npm" "install" "react-d3-components"
+125 error node v0.12.7
+126 error npm  v2.11.3
+127 error code EPEERINVALID
+128 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+128 error peerinvalid Peer react-dom@0.14.7 wants react@^0.14.7
+128 error peerinvalid Peer react-bar-chart@0.1.0 wants react@^0.13.3
+128 error peerinvalid Peer react-d3-components@0.6.2 wants react@^0.14.0
+129 verbose exit [ 1, true ]
